@@ -14,7 +14,29 @@ h1 {
 header {
     background-color: rgb(151, 194, 241);
     padding-top: 3%;
-    border-bottom-left-radius: 10px; /* Raio de arredondamento para o canto inferior esquerdo */
-    border-bottom-right-radius: 10px; /* Raio de arredondamento para o canto inferior direito */   
+    border-bottom-left-radius: 3%; 
+    border-bottom-right-radius: 3%;    
     
 }
+
+.container {
+    display: flex;
+    margin-left: 60%;
+    height: 25%;
+}
+
+.container img {
+    width: 60%;
+    animation: girar 2s linear infinite; 
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
