@@ -39,4 +39,21 @@ header {
     }
 }
 
+#instagram img,
+#linkedin img {
+    width: 30px; 
+    height: auto; 
+    margin-right: 10px; 
+    display: inline-block; 
+}
+
+p {
+    display: inline-block; 
+    margin-right: 2%;
+    margin-left: 4%;
+}
+
+
+
+
 
